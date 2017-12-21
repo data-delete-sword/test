@@ -1,3 +1,53 @@
 test fetch
 test fetch sigle
 test git pull
+alter table dept modify deptno number constraint dept_PK primary key
+create table myperson(
+pid varchar2(18) constraint myperson_PK primary key,
+pname varchar2(4) constraint myperson_Name not null,
+gender varchar2(4) constraint myperson)GGender check (gender in ('m','f')),
+email varchar2(30) constraint myperson_Email UNIQUE,
+daily report write daily reports here which also shows the current tasks and daily reports in this month
+create table EMP(
+EMPNO NUMBER,
+declare pename emp.ename%type;
+psal emp.sal%type;
+begin select ename,sal into pename,psal from emp where empno=1110;
+dbms_output.put_line(pename||)
+declare emp_rec emp%rowtype;
+begin select * into emp_rec from emp where empno=1110
+if pnum>0 then
+dbms_output.put_line
+declare
+  pnum nmber:=1;
+begin
+  loop
+  exit when pnum>10;
+  dbms_out.put_line(pnum);
+  pnum:=pnum+1;
+  end loop;
+end;
+declare 
+  emp_rec emp%rowtype;
+begin
+  for emp_rec in (select ename from emp)
+  loop
+  dbms_output.put_line(emp_rec.ename);
+  end loop;
+end;
+ji bu cheng xing
+isopen
+rowcount
+notfound
+cursor cl is select ename from emp;
+select to _char(hiredate,'yyyy') from emp
+elsif phiredate='2011' then count12
+dbms_output.put_line('total')
+select empno,form emp order by sal;
+select sum(sal) from emp;
+declare 
+  psal emp.sal%type;
+  pempno emp.empno%type;
+  s_sal emp.sal%type;
+  counts number :-0;
+  cursor cemp is select empno,

@@ -1,0 +1,63 @@
+user_sequences
+user_col_comments
+comment on table employees is  employees employees
+select & from user_tab_commentes where table_name='???';
+select to_char(systimestamp,'yyyy-mm-dd')  timestamp_to_scn(systimestamp) SCN from dual;
+UNDO_MAMAGEMENT
+fid fname tom mike
+flashback table[schema.]<table_name>
+to
+{[before drop [rename to table]]
+[SCN|TIMESTAMP]expr
+[enable|disable]triggers
+ccm, scc
+}
+
+user_sequences user_col_comments
+select * from user_tab_comments where table_name='???';
+alter table flashback_table enable row movement;
+alter table flashback_table enable row movement;
+alter table flashback_table enable row movement;
+schema to timestamp to scn enable triggers to before drop rename to table
+schema to timestamp to scn enable triggers to before drop rename to tabler
+reanme to table alter table flashback_table enable row movement;
+flashback table flashback_table to scn1377271;
+schema to timestamp toscn enabel triggers to before drop rename to table
+schema to timestamp toscn enable triggers to before drop rename to table
+emp20 bin$vrtnpsr4sey7glocvofzzq==$0 table 
+flashback table testtab to before drop rename to testtab_old;
+flashback table testtab to before drop rename to testtab_old;
+select column_name[,column_name,...]
+from table_name
+version between [SCN|TIMESTAMP][expr|MINVALUE] and [expr|MAXVALUE] as of [SCN|TIMESTAMP] expr;
+flashback table testtab to before drop rename to testtab_old;
+flashback table testtab to before drop rename to testtab_old;
+select fid,fname.versions_operation,versions_starttime
+versions_endtime,versions_xid
+from flashback_table versions between
+TIMESTAMP MINVALUE and MAXVALUE order by1inset into flashback_table values
+insert into flashback_table values
+update flashback_table set fname='jean' where fid=2; commit understood
+desc flashback_transactin_query
+flashback_tansaction_query
+
+public class ThreadTests{
+    public static void main(String[] args){
+        new Thread(){
+            public void run(){
+                System.put.println("Thread Runing...");
+                super.run();
+            }
+        }.start();
+    }
+}
+
+public class ThreadTests{
+    public static void main(String[] args){
+        new Thread(new Runnable(){
+            public void run(){
+                Systemput.println("Thread RUning");
+            }
+        }).start();  
+    }
+}

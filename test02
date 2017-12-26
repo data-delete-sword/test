@@ -1,0 +1,33 @@
+void PreOrderTraverse(BiTree t){
+    if(t!=NULL){
+        printf("%c",t->data);
+        PreOrderTraverse(t->lchikd);
+        PreOrderTraverse(t->rchild);
+    }
+}
+void PreOrderTravwesal(BinaryTree T){
+    if(T==null){
+        return;
+    }
+}
+
+void PstorderTraversal2(BinaryTree* T){
+    stack<BunaryTree*> stack;
+    BinaryTree* binary_tree_curr=T;
+}
+
+void LevelOrdreTraversal(BinaryTree* T){
+    queue<BinaryTree*> queue;
+    BinaryTree* cur=T;
+    queue.push(cur);
+    while(!queue.emptu()){
+        cir=queue.front();
+        queue.pop();
+        cout<<cur->data<<" ";
+        if(cur->lchild!=NULL){
+            queue.push(cur->lchild);
+        }>>>
+    }
+}
+new Timer().schedule(task,firstTime,period);
+new Timer().schedule(task,firstTime,period);
